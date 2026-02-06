@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "Bash(npm install:*)",
+      "Bash(npm pack:*)",
+      "Bash(git -C c:devfingerskieragentdex-claude-plugin status --short)",
+      "WebFetch(domain:anthropic.com)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nPrepare for npm publishing and marketplace distribution\n\n- Update package.json with npm metadata and release scripts\n- Add bin/dex-claude.js as entry point for npx distribution\n- Add .claude-plugin/plugin.json for Claude Code marketplace\n- Add mcp-servers.json for npx-based MCP server configuration\n- Add .mcp.json for local node-based MCP server configuration\n- Add MIT LICENSE\n- Export startServer function for programmatic use\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

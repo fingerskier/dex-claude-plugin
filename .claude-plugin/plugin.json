@@ -1,0 +1,17 @@
+{
+  "name": "dex-claude-plugin",
+  "version": "2026.2.6",
+  "description": "Runs jobs in Claude on a schedule",
+  "author": {
+    "name": "Fingerskier"
+  },
+  "license": "MIT",
+  "keywords": [
+    "scheduling",
+    "cron",
+    "automation",
+    "jobs",
+    "mcp"
+  ],
+  "mcpServers": "./mcp-servers.json"
+}

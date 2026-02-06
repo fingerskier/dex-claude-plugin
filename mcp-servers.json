@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dex": {
+      "command": "npx",
+      "args": ["-y", "dex-claude-plugin"]
+    }
+  }
+}

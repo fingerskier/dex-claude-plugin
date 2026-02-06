@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dex": {
+      "command": "node",
+      "args": ["bin/dex-claude.js"]
+    }
+  }
+}
